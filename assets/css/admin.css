@@ -1,0 +1,155 @@
+/**
+Plugin Name: Selecto
+Plugin URI: http://cmscript.net
+Description: Universal tool to collect users selections and number of options to utilize that data. Increasing significantly the site interactivity and usability.
+Version: 1.1
+Author: Dmitry Vadis <dmvadis@gmail.com> 
+Author URI: -
+Copyright: Copyright (C) Dmitry Vadis - All rights reserved worldwide 2011-2013, by the Dmitry Vadis.
+License: GPL2.
+
+Questions, suggestions and requests please address to info@cmscript.net.
+*/
+
+p.rfq_descript {
+	font-family: arial, sans-serif;
+	line-height: 15px !important;
+	font-size: 11px !important;
+	font-style: oblique;
+
+	padding: 3px 0 3px 22px;
+	margin: 5px 0 12px 0;
+	border-top: 1px dashed #ddd;
+	border-bottom: 2px solid #ddd;
+	background-color: lightyellow;
+}
+.unit_frame {
+	padding: 5px 0 5px 26px;
+}
+p.rfq_descript.label {
+	padding: 2px 0 10px 180px;
+	margin-bottom: 20px;
+}
+
+label {
+	/*float: left;*/
+	margin-left: 6px;
+}
+
+input.rfq_textinput, textarea.rfq_textarea, select.rfq_select {
+	width: 300px;
+}
+
+input.rfq_textinput, textarea.rfq_textarea, select.rfq_select, input.rfq_checkbox {
+	margin: 2px 0px 0px 0px;
+	/*padding: 0px;*/
+	float: left;
+}
+input.rfq_textinput, textarea.rfq_textarea, select.rfq_select {
+	margin: 2px 0px 0px 0px;
+	/*padding: 0px;*/
+	float: left;
+}
+.rfq_checkbox {
+	margin: 0px 0px 0px 6px;
+}
+
+input.rfq_checkbox.left {
+	margin-top: 2px;
+}
+
+label.rfq_textinput, label.rfq_textarea, label.rfq_select, label.rfq_checkbox {
+	width: 250px;
+	padding: 0 5px 0 0;
+	float: left;
+	/*
+	max-width: 300px;
+    min-width: 180px;	
+	background-color: transparent;
+	margin: 5px 0 5px 0;*/
+}
+label.rfq_textinput, label.rfq_textarea, label.rfq_select {
+	width: 250px;
+	padding: 0 5px 0 0;
+	float: left;
+	margin: 6px 0px 0px 6px;
+	/*
+	max-width: 300px;
+    min-width: 180px;	
+	background-color: transparent;
+	margin: 5px 0 5px 0;*/
+}
+.label_spcr{
+	/*width: 180px;*/
+	max-width: 300px;
+    min-width: 180px;	
+
+}
+label.rfq_radio {
+	margin-right: 20px;
+}
+
+.postbox {
+	margin: 10px 10px 0 0;	
+}
+.postbox form {
+	line-height: 150%;	
+}
+
+.text {
+	width: 250px;
+}
+
+.button {
+	color: #000 !important;
+}
+.rfqtab {
+	display: none;
+	max-width: 600px !important;
+}
+.rfqtab.active {
+	display: block;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+h2 code {
+	font-size: 23px;
+}
+h2 .rfq-opt-title {
+	font-size: 18px;
+	color: #666666;
+	border-bottom: 1px solid #ddd;
+	margin-top: 12px;
+	margin-bottom: 6px;
+	line-height: 70%;
+}
+h2 .rfq-opt-error {
+	font-size: 18px;
+	color: #dd0000;
+	border-bottom: 1px solid #ffdddd;
+	margin-top: 12px;
+	margin-bottom: 6px;
+	line-height: 70%;
+}
+h4 {
+	clear: both;
+	margin: 2em 0 0 0;	
+}
+#rfqform {
+	max-width: 600px;
+}
+.rfq_fn_off{
+	background-image:url(../images/DeleteMark.gif);
+	background-repeat: no-repeat;
+	width:20px;
+	height:30px;
+	vertical-align: middle;
+	background-position: left center;
+	cursor: hand;
+}
+.fnHead{
+	font-size: 14px;
+	font-weight: bold;
+}

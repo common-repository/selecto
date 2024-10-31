@@ -1,0 +1,580 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SELECTO v1.01\n"
+"POT-Creation-Date: 2013-04-08 17:32+0300\n"
+"PO-Revision-Date: 2013-04-08 17:32+0300\n"
+"Last-Translator: Dmitry Vadis <dmvadis@gmail.com>\n"
+"Language-Team: Dmitry Vadis <dmvadis@gmail.com>\n"
+"Language: en-GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;\"_e\";\"__\"\n"
+"X-Poedit-Basepath: H:\\trash\\subdomains\\CODED\\RFQ-WP\\SELECTO-WP\\\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: front\n"
+"X-Poedit-SearchPath-1: admin\n"
+"X-Poedit-SearchPath-2: tmpl\n"
+"X-Poedit-SearchPath-3: .\n"
+
+#: front/functions.php:19
+msgid "No supplier is selected to send RFQ"
+msgstr ""
+
+#: front/functions.php:20
+msgid "Please fill the RFQ Detail field"
+msgstr ""
+
+#: front/functions.php:21
+msgid "Please fill the Subject field"
+msgstr ""
+
+#: front/functions.php:22
+msgid "Please fill the Your Name field"
+msgstr ""
+
+#: front/functions.php:23
+msgid "Please fill the Email field"
+msgstr ""
+
+#: front/functions.php:24
+msgid "Please fill the Company Name field"
+msgstr ""
+
+#: front/functions.php:25
+msgid "You are not selected anything yet.<br />Make a selection now!"
+msgstr ""
+
+#: front/functions.php:26
+msgid "Your selections:"
+msgstr ""
+
+#: front/functions.php:27
+msgid "Send a RFQ to the suppliers you\\'ve selected"
+msgstr ""
+
+#: front/functions.php:28
+msgid "Not selected anything to send RFQ."
+msgstr ""
+
+#: front/functions.php:29
+msgid ""
+"Please make some selection on items you want and then push this button to "
+"send your RFQ."
+msgstr ""
+
+#: front/functions.php:30
+msgid "Sorry, you as Guest can only select up to "
+msgstr ""
+
+#: front/functions.php:31
+msgid ""
+" articles/items/suppliers. To lift this limit and take the benefits using "
+"our tool which is created to assist your inquiry effort, please sign up to "
+"get full service capacity and to enjoy supreme interactivity experience."
+msgstr ""
+
+#: front/functions.php:32
+msgid "Sorry, you can only select up to "
+msgstr ""
+
+#: front/functions.php:33
+msgid " articles/items/suppliers. To lift this limit, please, contact admin."
+msgstr ""
+
+#: front/functions.php:34
+msgid "Sorry, you as Guest can only send up to "
+msgstr ""
+
+#: front/functions.php:35
+msgid ""
+" emails. To lift this limit and take the benefits using our tool which is "
+"created to assist your inquiry effort, please sign up to get full service "
+"capacity and to enjoy supreme interactivity experience."
+msgstr ""
+
+#: front/functions.php:36
+msgid "Sorry, you as Guest can only download up to "
+msgstr ""
+
+#: front/functions.php:37
+msgid ""
+" articles/items. To lift this limit and take the benefits using our tool "
+"which is created to assist your inquiry effort, please sign up to get full "
+"service capacity and to enjoy supreme interactivity experience."
+msgstr ""
+
+#: front/functions.php:38
+msgid "Sorry, you can only send up to "
+msgstr ""
+
+#: front/functions.php:39
+msgid " emails. To lift this limit, please, contact admin."
+msgstr ""
+
+#: front/functions.php:40
+msgid "Sorry, you can only download up to "
+msgstr ""
+
+#: front/functions.php:41
+msgid " articles/items. To lift this limit, please, contact admin."
+msgstr ""
+
+#: front/functions.php:42
+msgid "No emails allowed"
+msgstr ""
+
+#: front/functions.php:43
+msgid "No downloads allowed"
+msgstr ""
+
+#: front/functions.php:44 admin/admin-html.php:35
+msgid "Actions"
+msgstr ""
+
+#: front/functions.php:45
+msgid "Select action"
+msgstr ""
+
+#: front/functions.php:46 front/functions.php:52
+msgid "Send to me"
+msgstr ""
+
+#: front/functions.php:47 front/functions.php:53
+msgid "Download zipped listing"
+msgstr ""
+
+#: front/functions.php:48 front/functions.php:54
+msgid "Download listing"
+msgstr ""
+
+#: front/functions.php:49
+msgid "Send email to articles authors"
+msgstr ""
+
+#: front/functions.php:50 front/functions.php:56
+msgid "Send RFQ"
+msgstr ""
+
+#: front/functions.php:51
+msgid "No actions are setup"
+msgstr ""
+
+#: front/functions.php:55
+msgid "Email to publish users"
+msgstr ""
+
+#: front/functions.php:57
+msgid "No actions"
+msgstr ""
+
+#: front/functions.php:58
+msgid ""
+"Send email with articles/items you\\'ve selected to your self and / or your "
+"friend[s]"
+msgstr ""
+
+#: front/functions.php:59
+msgid "Download zipped listing with articles/items you\\'ve selected"
+msgstr ""
+
+#: front/functions.php:60
+msgid "Download unzipped listing with articles/items you\\'ve selected"
+msgstr ""
+
+#: front/functions.php:61
+msgid "Send email to articles autors you\\'ve selected"
+msgstr ""
+
+#: front/functions.php:62
+msgid "Send RFQ to suppliers you\\'ve selected"
+msgstr ""
+
+#: front/functions.php:63
+msgid "No actions are setup yet. Please setup some actions from admin side//45"
+msgstr ""
+
+#: front/functions.php:64
+msgid "Menu"
+msgstr ""
+
+#: front/functions.php:65
+msgid "Select action from Actions menu"
+msgstr ""
+
+#: front/functions.php:66
+msgid "Bulk command"
+msgstr ""
+
+#: front/functions.php:67
+msgid "Check all"
+msgstr ""
+
+#: front/functions.php:68
+msgid "UnCheck all"
+msgstr ""
+
+#: front/functions.php:247 admin/elements.php:177
+msgid "Sample"
+msgstr ""
+
+#: front/rfq-srv.php:39
+msgid "PLEASE SETUP AND SAVE THE SELECTO PLUGIN IN ADMIN BACKEND!"
+msgstr ""
+
+#: front/rfq-srv.php:118 admin/admin-html.php:79
+msgid "Send / Download selections you've maked"
+msgstr ""
+
+#: front/rfq_Srv.php:27 tmpl/blue_marine/index.php:70
+#: tmpl/default/index.php:68
+msgid "My selections on"
+msgstr ""
+
+#: front/rfq_Srv.php:30
+msgid "Dear supplier"
+msgstr ""
+
+#: front/rfq_Srv.php:31
+msgid "our member sent to you an inquiry with the following message"
+msgstr ""
+
+#: front/rfq_Srv.php:33
+msgid "Additional info"
+msgstr ""
+
+#: front/rfq_Srv.php:34 front/rfq_Srv.php:74
+msgid "Our member contact info"
+msgstr ""
+
+#: front/rfq_Srv.php:35 front/rfq_Srv.php:75 front/rfq_Srv.php:115
+msgid "Name"
+msgstr ""
+
+#: front/rfq_Srv.php:36 front/rfq_Srv.php:76 front/rfq_Srv.php:116
+#: tmpl/blue_marine/index.php:91 tmpl/blue_marine/index.php:94
+#: tmpl/default/index.php:92
+msgid "Email"
+msgstr ""
+
+#: front/rfq_Srv.php:37 front/rfq_Srv.php:77 front/rfq_Srv.php:117
+msgid "Company"
+msgstr ""
+
+#: front/rfq_Srv.php:38 front/rfq_Srv.php:78 front/rfq_Srv.php:118
+msgid "Phone"
+msgstr ""
+
+#: front/rfq_Srv.php:40 front/rfq_Srv.php:80 front/rfq_Srv.php:142
+msgid "Always yours"
+msgstr ""
+
+#: front/rfq_Srv.php:40 front/rfq_Srv.php:80 front/rfq_Srv.php:142
+msgid "team"
+msgstr ""
+
+#: front/rfq_Srv.php:52
+msgid "Your inquiry at"
+msgstr ""
+
+#: front/rfq_Srv.php:55
+msgid "[Exact copy of your RFQ] you has been sent to the follow supplier[s]"
+msgstr ""
+
+#: front/rfq_Srv.php:57 front/rfq_Srv.php:64 front/rfq_Srv.php:97
+#: front/rfq_Srv.php:104
+msgid "Supplier name"
+msgstr ""
+
+#: front/rfq_Srv.php:58 front/rfq_Srv.php:65 front/rfq_Srv.php:98
+#: front/rfq_Srv.php:105
+msgid "Supplier email"
+msgstr ""
+
+#: front/rfq_Srv.php:62 front/rfq_Srv.php:102
+msgid "Failure sending email to the following supplier[s]"
+msgstr ""
+
+#: front/rfq_Srv.php:71 front/rfq_Srv.php:111 tmpl/blue_marine/index.php:67
+#: tmpl/blue_marine/index.php:69 tmpl/default/index.php:65
+msgid "Subject"
+msgstr ""
+
+#: front/rfq_Srv.php:72 front/rfq_Srv.php:112 front/rfq_Srv.php:138
+msgid "Message"
+msgstr ""
+
+#: front/rfq_Srv.php:84
+msgid "Your RFQ at"
+msgstr ""
+
+#: front/rfq_Srv.php:92
+msgid "User inquiry"
+msgstr ""
+
+#: front/rfq_Srv.php:95
+msgid "[Exact copy of user RFQ] has been sent to the follow supplier[s]"
+msgstr ""
+
+#: front/rfq_Srv.php:114
+msgid "Contact"
+msgstr ""
+
+#: front/rfq_Srv.php:132 front/rfq_Srv.php:146
+msgid "Your selections at the"
+msgstr ""
+
+#: front/rfq_Srv.php:135 tmpl/downloads/mail_tmpl.php:112
+msgid "Your selections"
+msgstr ""
+
+#: front/rfq_Srv.php:135 tmpl/downloads/mail_tmpl.php:112
+msgid "that you are maked on"
+msgstr ""
+
+#: front/rfq_Srv.php:135
+msgid ", at"
+msgstr ""
+
+#: front/rfq_Srv.php:306 front/rfq_Srv.php:318
+msgid "Send to"
+msgstr ""
+
+#: front/rfq_Srv.php:309
+msgid "Your selected articles / items are sent to you successfully"
+msgstr ""
+
+#: front/rfq_Srv.php:312
+msgid "Your RFQ has been sent successfully to"
+msgstr ""
+
+#: front/rfq_Srv.php:312
+msgid "supplier[s].<br/>Also an copy sent to you"
+msgstr ""
+
+#: front/rfq_Srv.php:315
+msgid ""
+"No mails where send or mailer malfunction happened.<br/>Please try later"
+msgstr ""
+
+#: front/rfq_Srv.php:317
+msgid "Selections you make"
+msgstr ""
+
+#: front/rfq_Srv.php:321
+msgid "No suppliers selected.<br/>Select some and came back"
+msgstr ""
+
+#: front/rfq_Srv.php:335
+msgid "Not readable? Change text"
+msgstr ""
+
+#: front/rfq_Srv.php:340
+msgid "Security image"
+msgstr ""
+
+#: front/rfq_Srv.php:342
+msgid "error security code, please try again"
+msgstr ""
+
+#: front/rfq_Srv.php:343
+msgid "Security code"
+msgstr ""
+
+#: front/rfq_Srv.php:343
+msgid "Please write the below security symbols from image to the text field"
+msgstr ""
+
+#: front/rfq_Srv.php:520
+msgid "send your selections to you"
+msgstr ""
+
+#: front/rfq_Srv.php:521
+msgid "send a mail to articles autors"
+msgstr ""
+
+#: front/rfq_Srv.php:522
+msgid "send your RFQ"
+msgstr ""
+
+#: front/rfq_Srv.php:573
+msgid "Download error. Please try later"
+msgstr ""
+
+#: admin/admin-html.php:24
+msgid "Visit our Site - cmscript.net"
+msgstr ""
+
+#: admin/admin-html.php:28
+msgid "Selecto: Settings"
+msgstr ""
+
+#: admin/admin-html.php:33
+msgid "Basic Options"
+msgstr ""
+
+#: admin/admin-html.php:34
+msgid "Setup"
+msgstr ""
+
+#: admin/admin-html.php:36
+msgid "Mailing facilities"
+msgstr ""
+
+#: admin/admin-html.php:37
+msgid "Miscellaneous"
+msgstr ""
+
+#: admin/admin-html.php:322 admin/admin-html.php:328
+msgid ""
+"Note: can not set the same theme to allow and disallow running of plugin."
+msgstr ""
+
+#: admin/admin.php:55
+msgid "SELECTO Settings"
+msgstr ""
+
+#: admin/admin.php:55
+msgid "SELECTO"
+msgstr ""
+
+#: admin/elements.php:50
+msgid "Save Settings"
+msgstr ""
+
+#: admin/elements.php:172
+msgid "Fonts Listing"
+msgstr ""
+
+#: admin/elements.php:175
+msgid "Font file name"
+msgstr ""
+
+#: admin/elements.php:179
+msgid "Size"
+msgstr ""
+
+#: admin/elements.php:181
+msgid "Act"
+msgstr ""
+
+#: admin/elements.php:214
+msgid "Font Sample of: "
+msgstr ""
+
+#: admin/elements.php:218
+msgid "Remove this font"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:43 tmpl/default/index.php:43
+msgid "Selecto mailing service"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:54 tmpl/blue_marine/index.php:56
+#: tmpl/default/index.php:54
+msgid "Mailing service"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:61 tmpl/default/index.php:59
+msgid "Send message"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:68 tmpl/default/index.php:66
+msgid "My selections at the"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:69 tmpl/default/index.php:67
+msgid "Your message"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:70 tmpl/default/index.php:68
+msgid ", at the"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:70 tmpl/default/index.php:68
+msgid ", that i send to me and / or my friend[s]."
+msgstr ""
+
+#: tmpl/blue_marine/index.php:71 tmpl/default/index.php:69
+msgid "You have"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:71 tmpl/default/index.php:69
+msgid "characters left."
+msgstr ""
+
+#: tmpl/blue_marine/index.php:74 tmpl/default/index.php:72
+msgid "Maximum of 1MB per file"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:82 tmpl/default/index.php:80
+msgid "Your and/or friend[s] name"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:83 tmpl/default/index.php:81
+msgid "put first your name then others, separated by commas"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:83 tmpl/default/index.php:81
+msgid ". With emails keep same order."
+msgstr ""
+
+#: tmpl/blue_marine/index.php:85
+msgid "Your name"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:92 tmpl/default/index.php:90
+msgid "write emails addresses, separated by commas"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:92 tmpl/default/index.php:90
+msgid "in order accordingly the names order, you had set previously"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:94 tmpl/default/index.php:92
+msgid "Your email adress where will be sent responce"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:100 tmpl/default/index.php:98
+msgid "Phone / Mobile"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:105 tmpl/default/index.php:103
+msgid "Company name"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:116 tmpl/default/index.php:114
+msgid "Fill all fields marked with asterisk"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:116 tmpl/default/index.php:114
+msgid "Required Field"
+msgstr ""
+
+#: tmpl/blue_marine/index.php:123 tmpl/default/index.php:125
+#: tmpl/downloads/mail_tmpl.php:115
+msgid "Selecto V 1.01"
+msgstr ""
+
+#: tmpl/downloads/mail_tmpl.php:22
+msgid "Your selections at"
+msgstr ""
+
+#: tmpl/downloads/mail_tmpl.php:111
+msgid "Visit the"
+msgstr ""
+
+#: tmpl/downloads/mail_tmpl.php:111
+msgid "for more fresh news & info"
+msgstr ""
+
+#: tmpl/downloads/mail_tmpl.php:112
+msgid "at"
+msgstr ""
+
+#: rfq.php:30
+msgid ""
+"Selecto requires PHP 5.3 or higher, as does WordPress 3.3 and higher. The "
+"plugin has now disabled itself. "
+msgstr ""

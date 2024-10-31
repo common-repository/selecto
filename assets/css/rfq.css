@@ -1,0 +1,430 @@
+/**
+Plugin Name: Selecto
+Plugin URI: http://cmscript.net
+Description: Universal tool to collect users selections and number of options to utilize that data. Increasing significantly the site interactivity and usability.
+Version: 1.1
+Author: Dmitry Vadis <dmvadis@gmail.com> 
+Author URI: -
+Copyright: Copyright (C) Dmitry Vadis - All rights reserved worldwide 2011-2013, by the Dmitry Vadis.
+License: GPL2.
+
+Questions, suggestions and requests please address to info@cmscript.net.
+*/
+
+@charset "utf-8";
+.rfq {
+	background-image:url(../images/rfqChkbox.png);
+	background-repeat: no-repeat;
+	/*top:-1px;*/
+	width:58px;
+	height:22px;
+	float: right;
+	/*
+	text-align: right;
+	opacity:.7;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70); 
+	margin-top: -25px;
+	*/
+	top: -25px;
+	margin-left:5px;
+	-moz-box-shadow: 0 0 3px 1px #666;
+	-webkit-box-shadow: 0 0 3px 1px #666;
+	box-shadow: 0 0 3px 1px #666;
+	
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	z-index: 9999;
+	position:relative;
+}
+.rfq:hover {
+	background-image:url(../images/rfqChkbox-h.png);
+	background-repeat: no-repeat;
+	width:58px;
+	height:22px;
+	float: right;
+	top: -25px;
+	margin-left:5px;
+	-moz-box-shadow: 0 0 3px 1px #666;
+	-webkit-box-shadow: 0 0 3px 1px #666;
+	box-shadow: 0 0 3px 1px #666;
+	
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	z-index: 9999;
+	position:relative;
+}
+.rfqd {
+	background-image:url(../images/rfqChkboxd.png);
+	background-repeat: no-repeat;
+	width:58px;
+	height:22px;
+	float: right;
+	top: -25px;
+	margin-left:5px;
+	-moz-box-shadow: 0 0 3px 1px #666;
+	-webkit-box-shadow: 0 0 3px 1px #666;
+	box-shadow: 0 0 3px 1px #666;
+	
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	z-index: 9999;
+	position:relative;
+}
+.rfqd:hover {
+	background-image:url(../images/rfqChkboxd-h.png);
+	background-repeat: no-repeat;
+	width:58px;
+	height:22px;
+	float: right;
+	top: -25px;
+	margin-left:5px;
+	-moz-box-shadow: 0 0 3px 1px #666;
+	-webkit-box-shadow: 0 0 3px 1px #666;
+	box-shadow: 0 0 3px 1px #666;
+	
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	z-index: 9999;
+	position:relative;
+}
+
+.rfq input.rfqChkbox{
+	position:relative;
+	left:33px;
+	top:1px;
+	width:auto;
+	height:auto;
+	z-index: 9999;
+}
+.rfqd input.rfqChkbox{
+	position:relative;
+	left:33px;
+	top:1px;
+	width:auto;
+	height:auto;
+	z-index: 9999;
+}
+.pfq{
+	
+	align:left; 
+	font-size:11px;
+	font-family: Georgia;
+	overflow-x:hidden;
+	max-height: 180px;
+}
+.pfq a.send {
+
+	background: #000000 url("../images/send_button.png") no-repeat top left;
+
+	cursor:pointer;
+	border: medium none;
+    float: right;
+	position: relative;
+    height: 44px;
+    width: 180px;
+	background-color:#ffffff;
+	
+	-moz-box-shadow: 0 0 3px 1px #666666;
+	-webkit-box-shadow: 0 0 3px 1px #666666;
+	box-shadow: 0 0 3px 1px #666666;
+	
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+	
+	 /*
+	opacity:1.; 
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100); 
+	opacity:1.0;
+	filter:alpha(opacity=100); 
+	opacity:1.; 
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100); ok */
+}
+.pfq a.send:hover {
+	cursor:pointer;
+	border: medium none;
+    float: right;
+	position: relative;
+    height: 44px;
+    width: 180px;
+	/*background-color:#ffffff;*/
+    background: #000000 url("../images/send_button_.png") no-repeat;
+	
+	-moz-box-shadow: 0 0 3px 1px #666666;
+	-webkit-box-shadow: 0 0 3px 1px #666666;
+	box-shadow: 0 0 3px 1px #666666;
+	
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-khtml-border-radius: 6px;
+	border-radius: 6px;
+/*
+*/
+}
+/*
+#rfq input#send {
+    margin-right: 30px;
+    margin-top: 0;
+}
+	*/
+ul { list-style: none outside none; }
+
+
+/* panel button */
+
+/*body {
+background:#1a1a1a;
+text-align:left;
+color:#666;
+width:700px;
+font-size:14px;
+font-family:georgia, 'time new romans', serif;
+margin:0 auto;
+padding:0;
+}*/
+
+a:focus {
+outline: none;
+}
+.pfq a,
+     a:visited, 
+     a:focus {
+	 color: #9FC54E;
+	 text-decoration:none;
+}
+.pfq a:hover {
+	 color: #ffffff;
+	 background-color:#333333;
+	 text-decoration:none;
+}
+#container_panel {
+clear: both;
+background:#1a1a1a;
+text-align:left;
+color:#666;
+width:700px;
+font-size:14px;
+font-family:georgia, 'time new romans', serif;
+margin:0 auto;
+padding:0;
+
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;
+/*
+-moz-border-radius-topright: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-bottomleft: 20px;
+-webkit-border-bottom-left-radius: 20px;
+*/
+}
+
+#container_panel a{
+float: right;
+background: #9FC54E;
+border: 1px solid #9FC54E;
+-moz-border-radius-topright: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-bottomleft: 20px;
+-webkit-border-bottom-left-radius: 20px;
+text-decoration: none;
+font-size: 16px;
+letter-spacing:-1px;
+font-family: verdana, helvetica, arial, sans-serif;
+color:#fff;
+padding: 20px;
+font-weight: 700;
+}
+
+#container_panel a:hover{
+float: right;
+background: #a0a0a0;
+border: 1px solid #cccccc;
+-moz-border-radius-topright: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-bottomleft: 20px;
+-webkit-border-bottom-left-radius: 20px;
+text-decoration: none;
+font-size: 16px;
+letter-spacing:-1px;
+font-family: verdana, helvetica, arial, sans-serif;
+color:#fff;
+padding: 20px;
+font-weight: 700;
+}
+
+.rfq_panel_Qi7255 {
+position: fixed;
+bottom:45px;
+left: 0;
+display: none;
+background: #333333;
+border:1px solid #ffffff;
+/*
+-moz-border-radius-topright: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-bottomright: 20px;
+-webkit-border-bottom-right-radius: 20px;
+*/
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;
+
+width: 330px;
+height: auto;
+padding: 30px 30px 30px 130px;
+filter: alpha(opacity=85);
+opacity: .85;
+color:#FFF;
+z-index:999;
+}
+
+.rfq_panel_Qi7255 p{
+margin: 0 0 15px 0;
+padding: 0;
+color: #cccccc;
+}
+
+.rfq_panel_Qi7255 a, .rfq_panel_Qi7255 a:visited{
+	margin: 0;
+	padding: 0;
+	color: #9FC54E;
+	text-decoration: none;
+	border-bottom: 1px solid #9FC54E;
+}
+
+.rfq_panel_Qi7255 a:hover, .rfq_panel_Qi7255 a:visited:hover{
+margin: 0;
+padding: 0;
+color: #ffffff;
+text-decoration: none;
+border-bottom: 1px solid #ffffff;
+}
+
+a.trigger{
+width: 32px;
+height: 32px;
+position: fixed;
+text-decoration: none;
+bottom: 50px; left: 5px;
+font-size: 16px;
+letter-spacing:-1px;
+font-family: verdana, helvetica, arial, sans-serif;
+color:#fff;
+font-weight: 700;
+background:transparent url(../images/rfq_open.png) 85% 55% no-repeat;
+/*
+padding: 20px 40px 20px 15px;
+border:1px solid #444444;
+-moz-border-radius-topright: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-bottomright: 20px;
+-webkit-border-bottom-right-radius: 20px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-bottom-left-radius: 0px;
+
+border-top-left-radius:20px;
+border-top-right-radius:20px;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px;
+*/
+
+display: block;
+	z-index: 9999;
+}
+
+a.trigger:hover{
+position: fixed;
+text-decoration: none;
+bottom: 50px; left: 5px;
+font-size: 16px;
+letter-spacing:-1px;
+font-family: verdana, helvetica, arial, sans-serif;
+color:#fff;
+font-weight: 700;
+background:transparent url(../images/rfq_open.png) no-repeat;
+/*
+padding: 20px 40px 20px 20px;
+background:transparent url(../images/rfq_open.png) 85% 55% no-repeat;
+border:1px solid #444444;
+-moz-border-radius-topright: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-bottomright: 20px;
+-webkit-border-bottom-right-radius: 20px;
+-moz-border-radius-bottomleft: 0px;
+-webkit-border-bottom-left-radius: 0px;
+*/
+display: block;
+}
+
+a.active.trigger {
+background:transparent url(../images/rfq_close.png) no-repeat;
+	z-index: 9999;
+/*
+background:#222222 url(http://realty.home-ru.net/plugins/system/rfq/rfq/assets/images/rfq_close.png) no-repeat;
+*/
+}
+.cfq {
+	height: auto;
+	width: 100%;
+	font-size:10px;
+	color:#FFFFFF;
+}	
+.cfq input.sendbutton {
+	position: relative;
+	float: right;
+	height: 48px;
+	width: 200px;
+	font-size:28px;
+}	
+.pfq input.sendbutton {
+	position: relative;
+	float: right;
+	height: 48px;
+	width: 200px;
+	font-size:28px;
+		/*
+	position: relative;
+	float: left;
+	-moz-box-shadow: 0 0 3px 1px #666666;
+	-webkit-box-shadow: 0 0 3px 1px #666666;
+	box-shadow: 0 0 3px 1px #666666;
+	
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-radius: 8px;
+	*/
+	
+	 /*
+	opacity:1.; 
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100); 
+	opacity:1.0;
+	filter:alpha(opacity=100); 
+	opacity:1.; 
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100); ok */
+}
+.rfq_actMenu{
+	color:#ffffff;
+}
+.rfq_act, .rfq_acts{
+	color:#ffffff;
+}
